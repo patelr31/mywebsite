@@ -1,0 +1,51 @@
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }  
+
+body {
+    background: turquoise;
+}
+
+a {
+    color: darkolivegreen;
+}
+a:hover{
+    color: sandybrown;
+    text-decoration: none;
+}
+
+.btn {
+    background: darkolivegreen;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.home {
+    background: url(../images/bg-gradient.jpg);
+    background-size: cover;
+}
+.home .content-wrapper {
+    background: rgb(255 255 255 / 0.9 );
+}
+
+footer {
+    background: #222;
+    color: #d3d4d6;
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li {
+    display: inline-block;
+
+}
+.socials img {
+    width: 32px;
+}
